@@ -36,11 +36,7 @@ mixin MaterialAppModule {
   /// Method that injects the dependencies of the modules.
   void _injectDependencies() {
     for (final dependency in _dependencies) {
-      dependency.registerDatasources();
-      dependency.registerExternals();
-      dependency.registerRepositories();
-      dependency.registerStores();
-      dependency.registerUsecases();
+      dependency.registerDependencies();
     }
   }
 

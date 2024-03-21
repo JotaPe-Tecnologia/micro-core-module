@@ -1,20 +1,22 @@
 name: micro_core_module
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://www.jotapetecnologia.com.br/flutter/packages/micro-core-module
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: ">=3.2.6 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  get_it: ^7.6.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  mocktail: ^1.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
