@@ -3,7 +3,7 @@ import 'package:micro_core_module/micro_core_module.dart';
 
 import 'home_page.dart';
 
-final class HomeRoutes implements AppModuleRoute {
+final class HomeRoutes extends AppModuleRoute {
   @override
   AppModuleRoutes get routes => [
         AppRoute(

@@ -3,7 +3,7 @@ import 'package:micro_core_module/micro_core_module.dart';
 
 import 'contact_page.dart';
 
-final class ContactRoutes implements AppModuleRoute {
+final class ContactRoutes extends AppModuleRoute {
   @override
   AppModuleRoutes get routes => [
         AppRoute(

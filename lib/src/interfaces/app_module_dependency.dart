@@ -3,7 +3,7 @@
 /// This class should be implemented by the module dependency class and its methods
 /// should be overriden to handle the registration of datasources, externals,
 /// repositories, stores and usecases.
-abstract interface class AppModuleDependency {
+abstract base class AppModuleDependency {
   /// Method that should handle the registration of dependencies.
   void registerDependencies();
 }
